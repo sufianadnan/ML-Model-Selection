@@ -33,7 +33,7 @@ with open("feature_names.pkl", "rb") as f:
 # Extract selected feature names
 selected_features = [all_feature_names[i] for i in selected_features_indices]
 
-basepath = "/home/sufian/Desktop/Lab5/samples/"
+basepath = "/home/user/Desktop/samples/"
 
 # Function to remove ANSI escape sequences from a string
 def remove_escape_sequences(text):
