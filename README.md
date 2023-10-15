@@ -62,5 +62,6 @@ The repository is organized into separate Python scripts for each task, followin
 
 ## Running the Code
 
-To run the code for each task, follow the instructions in the project document, and make sure to install the required Python packages listed in `requirements.txt`. You can execute the Python scripts individually for each task.
+To run the code for each task, and make sure to install the required Python packages `pip install matplotlib numpy pandas sklearn`. You can execute the Python scripts individually for each task.
+
 
