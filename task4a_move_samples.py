@@ -38,8 +38,8 @@ def process_sample_directory(sample_dir, samples_csv, output_folder):
 
 if __name__ == "__main__":
     # Path to the directory containing the malware and benignware samples
-    sample_dir1 = "/home/sufian/Desktop/lab2/benignware/"
-    sample_dir2 = "/home/sufian/Desktop/lab2/malware/"  # Replace with the second path
+    sample_dir1 = "/home/user/Desktop/benignware/"
+    sample_dir2 = "/home/user/Desktop/malware/"  # Replace with the second path
 
     # Path to the "samples.csv" dataset
     samples_csv = "samples.csv"
