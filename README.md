@@ -19,7 +19,8 @@ Now, let's delve into the details of our project and the tasks we've undertaken.
    - Randomly select 30 malware samples and 30 benign samples from the dataset.
    - Create a file with MD5 hash and the true label of each sample.
    - Remove these selected samples from the full dataset.
-   - Save the test samples to the Kali host.
+   - Save the selected 30 malware samples and 30 benign samples into a new samples.csv.
+   - Moving forward, we will exclusively utilize reduceddataset.csv and samples.csv.
 
 2. **Task 2: Feature Selection using Cross-Validation**
    - Compare four different feature selection strategies using cross-validation.
