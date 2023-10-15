@@ -5,6 +5,15 @@ In this project, we focus on model selection and evaluation using cross-validati
 ## Project Overview
 
 This Project involves several tasks, each of which contributes to the overall goal of selecting the best model for classification and evaluating its performance. The key tasks in this project include:
+## Included Datasets
+
+- `dataset.csv`: The original dataset, which served as the foundation for our analysis.
+- `reduceddataset.csv`: This dataset is used for model training, and it excludes samples selected for testing in later stages of the project.
+- `samples.csv`: A crucial dataset that contains a subset of samples used for testing. We use this dataset to assess the accuracy and effectiveness of our selected machine learning model.
+
+The inclusion of these datasets is fundamental to our project's success, as they play a pivotal role in our model selection and evaluation processes.
+
+Now, let's delve into the details of our project and the tasks we've undertaken.
 
 1. **Task 1: Split the Dataset**
    - Randomly select 30 malware samples and 30 benign samples from the dataset.
