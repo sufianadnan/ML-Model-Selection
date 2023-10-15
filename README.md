@@ -56,8 +56,6 @@ The repository is organized into separate Python scripts for each task, followin
 
 - `task4c_evaluation_and_plots.py`: Script for Task 4, part 3, which evaluates the performance of the model on live files and generates classification reports and plots.
 
-- `requirements.txt`: Lists the required Python packages for this project.
-
 - `README.md`: This README file.
 
 ## Running the Code
