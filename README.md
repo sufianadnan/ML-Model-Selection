@@ -1,66 +1,56 @@
-# Malware Machine Learning Model Selection and Evaluation
+# Malware Detection and Machine Learning Repository
 
-In this project, we focus on model selection and evaluation using cross-validation and apply machine learning techniques to classify malware and benignware samples.
+Welcome to the Malware Detection and Machine Learning Repository! This repository contains two interconnected projects that are built progressively to enhance our understanding of malware detection and machine learning.
 
-## Project Overview
+## Project Progression
 
-This Project involves several tasks, each of which contributes to the overall goal of selecting the best model for classification and evaluating its performance. The key tasks in this project include:
-## Included Datasets
+The projects within this repository are designed to build upon one another, offering a seamless progression in the realm of malware detection and machine learning. I recommend following this progression to fully grasp the concepts and techniques involved:
 
-- `dataset.csv`: The original dataset, which served as the foundation for our analysis.
-- `reduceddataset.csv`: This dataset is used for model training, and it excludes samples selected for testing in later stages of the project.
-- `samples.csv`: A crucial dataset that contains a subset of samples used for testing. We use this dataset to assess the accuracy and effectiveness of our selected machine learning model.
+### 1. Cross_Validation_Model_Selection
 
-The inclusion of these datasets is fundamental to our project's success, as they play a pivotal role in our model selection and evaluation processes.
+In the "Cross_Validation_Model_Selection" project, I delve into model selection and evaluation using cross-validation techniques to classify malware and benignware samples. Here's an overview of the project:
 
-Now, let's delve into the details of our project and the tasks we've undertaken.
+- **Project Overview:** This project involves several tasks aimed at selecting the best model for classification and evaluating its performance. It includes dataset splitting, feature selection using cross-validation, model selection using different classifiers, and live classification and performance evaluation.
 
-1. **Task 1: Split the Dataset**
-   - Randomly select 30 malware samples and 30 benign samples from the dataset.
-   - Create a file with MD5 hash and the true label of each sample.
-   - Remove these selected samples from the full dataset.
-   - Save the selected 30 malware samples and 30 benign samples into a new samples.csv.
-   - Moving forward, we will exclusively utilize reduceddataset.csv and samples.csv.
+- **Included Datasets:**
 
-2. **Task 2: Feature Selection using Cross-Validation**
-   - Compare four different feature selection strategies using cross-validation.
-   - Write a Python script to calculate the cross-validation F1 score for each strategy.
-   - Calculate the mean and standard deviation of the scores.
+  - `dataset.csv`: The original dataset.
+  - `reduceddataset.csv`: Used for model training.
+  - `samples.csv`: A subset used for testing.
 
-3. **Task 3: Model Selection using Cross-Validation**
-   - Compare four different models (Decision Tree, Random Forest, SVC, and BernoulliNB) with a chosen feature selection strategy.
-   - Calculate the cross-validation F1 scores for each model and strategy.
-   - Determine the best model based on the results.
+- **Key Tasks:**
 
-4. **Task 4: Live Classification and Performance Evaluation**
-   - Create scripts for live classification and performance evaluation using a selected model.
-   - Move selected samples to a separate folder.
-   - Train the classifier and save the model.
-   - Run the model on live files and log the results.
-   - Generate classification reports, confusion matrices, and ROC curves.
+  1. Splitting the dataset into train and test datasets.
+  2. Feature selection using cross-validation.
+  3. Model selection using cross-validation.
+  4. Live classification and performance evaluation.
 
-## Repository Structure
+- **Repository Structure:** The repository includes Python scripts for each task, facilitating easy execution.
 
-The repository is organized into separate Python scripts for each task, following the instructions provided in the project document. Here is a breakdown of the files and their purposes:
+To get started, explore the tasks within this project, and run the Python scripts individually for each task.
 
-- `task1_split_dataset.py`: Script for Task 1, which splits the dataset into test and reduced datasets.
+## Hyperparameter_Tuning
 
-- `task2_feature_selection.py`: Script for Task 2, which performs feature selection and cross-validation using different methods.
+In the "Hyperparameter_Tuning" project, I focus on optimizing hyperparameters for a Support Vector Classifier (SVC) using cross-validation. This project builds on the dataset used in the "Cross_Validation_Model_Selection" project. Here's an overview:
 
-- `task3_model_selection.py`: Script for Task 3, which selects the best model and performs cross-validation for each model.
+- **Project Overview:** The project aims to fine-tune the hyperparameters of an SVC to achieve the best possible performance. It involves feature selection, randomized hyperparameter tuning, grid hyperparameter tuning, model training, and model evaluation.
 
-- `task4a_move_samples.py`: Script for Task 4, part 1, which moves selected samples to a separate folder for live classification.
+- **Included Datasets:** This project uses the same datasets as the "Cross_Validation_Model_Selection" project.
 
-- `task4b_train_classifier.py`: Script for Task 4, part 2, which trains the classifier, saves the model, and prepares it for live classification.
+- **Key Tasks:**
 
-- `live_classification.py`: Script for live classification, utilizing the saved model to classify live files.
+  1. Feature selection and model evaluation.
+  2. Randomized hyperparameter tuning.
+  3. Grid hyperparameter tuning.
+  4. Train and save the model.
+  5. Model evaluation and generation of plots.
 
-- `task4c_evaluation_and_plots.py`: Script for Task 4, part 3, which evaluates the performance of the model on live files and generates classification reports and plots.
+- **Repository Structure:** Similar to the first project, this project's tasks are organized into separate Python scripts.
 
-- `README.md`: This README file.
+To utilize this project, execute the Python scripts corresponding to each task.
 
 ## Running the Code
 
-To run the code for each task, and make sure to install the required Python packages `pip install matplotlib numpy pandas sklearn`. You can execute the Python scripts individually for each task.
+To run the code for each project, ensure you have the required Python packages installed (`matplotlib`, `numpy`, `pandas`, and `sklearn`). You can execute the Python scripts individually for each task within the projects.
 
-
+Feel free to explore each project's specific README files for more detailed information on each task and how to execute them.
