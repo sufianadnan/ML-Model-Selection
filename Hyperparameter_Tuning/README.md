@@ -1,16 +1,16 @@
 # Hyperparameter Tuning
 
-This project focuses on hyperparameter tuning for a machine learning model. It involves optimizing the hyperparameters of a Support Vector Classifier (SVC) using cross-validation. Below, we provide an overview of the project and describe each task in detail.
+This project focuses on hyperparameter tuning for a machine learning model. It involves optimizing the hyperparameters of a Support Vector Classifier (SVC) using cross-validation. Below, I provide an overview of the project and describe each task in detail.
 
 ## Project Overview
 
-In this project, we aim to fine-tune the hyperparameters of an SVC to achieve the best possible performance. We use a reduced dataset for training and evaluation and apply cross-validation to select the optimal hyperparameters. The tasks involved in this project are designed to explore and evaluate different hyperparameter settings for the SVC.
+In this project, I aim to fine-tune the hyperparameters of an SVC to achieve the best possible performance. I use a reduced dataset for training and evaluation and apply cross-validation to select the optimal hyperparameters. The tasks involved in this project are designed to explore and evaluate different hyperparameter settings for the SVC.
 
 ## Included Datasets
 
 - `dataset.csv`: The original dataset, which served as the foundation for our analysis.
 - `reduceddataset.csv`: This dataset is used for model training, and it excludes samples selected for testing in later stages of the project.
-- `samples.csv`: A crucial dataset that contains a subset of samples used for testing. We use this dataset to assess the accuracy and effectiveness of our selected machine learning model.
+- `samples.csv`: A crucial dataset that contains a subset of samples used for testing. I use this dataset to assess the accuracy and effectiveness of our selected machine learning model.
 
 ** ALL CSV's are found in the Cross_Validation_Model Folderm this project is built on that dataset **
 

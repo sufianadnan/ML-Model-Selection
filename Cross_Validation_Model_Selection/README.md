@@ -1,6 +1,6 @@
 # Cross Validation Model Selection
 
-In this project, we focus on model selection and evaluation using cross-validation and apply machine learning techniques to classify malware and benignware samples.
+In this project, I focus on model selection and evaluation using cross-validation and apply machine learning techniques to classify malware and benignware samples.
 
 ## Project Overview
 
@@ -10,7 +10,7 @@ This Project involves several tasks, each of which contributes to the overall go
 
 - `dataset.csv`: The original dataset, which served as the foundation for our analysis.
 - `reduceddataset.csv`: This dataset is used for model training, and it excludes samples selected for testing in later stages of the project.
-- `samples.csv`: A crucial dataset that contains a subset of samples used for testing. We use this dataset to assess the accuracy and effectiveness of our selected machine learning model.
+- `samples.csv`: A crucial dataset that contains a subset of samples used for testing. I use this dataset to assess the accuracy and effectiveness of our selected machine learning model.
 
 The inclusion of these datasets is fundamental to our project's success, as they play a pivotal role in our model selection and evaluation processes.
 
@@ -22,7 +22,7 @@ Now, let's delve into the details of our project and the tasks we've undertaken.
    - Create a file with MD5 hash and the true label of each sample.
    - Remove these selected samples from the full dataset.
    - Save the selected 30 malware samples and 30 benign samples into a new samples.csv.
-   - Moving forward, we will exclusively utilize reduceddataset.csv and samples.csv.
+   - Moving forward, I will exclusively utilize reduceddataset.csv and samples.csv.
 
 2. **Task 2: Feature Selection using Cross-Validation**
 
